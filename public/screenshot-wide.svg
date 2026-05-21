@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#0a0e14"/>
+  <!-- Sidebar -->
+  <rect x="0" y="0" width="260" height="720" fill="#111827" stroke="#1e293b" stroke-width="1"/>
+  <!-- Logo area -->
+  <rect x="16" y="16" width="36" height="36" rx="10" fill="#0d1117" stroke="rgba(0,230,118,0.5)" stroke-width="1.5"/>
+  <text x="34" y="40" font-family="monospace" font-size="18" fill="#00e676" text-anchor="middle">⬡</text>
+  <text x="62" y="30" font-family="sans-serif" font-size="13" font-weight="700" fill="#e2e8f0">DevPath</text>
+  <text x="62" y="46" font-family="monospace" font-size="9" fill="#4a5568">Backend Mastery v2</text>
+  <!-- Nav items -->
+  <rect x="0" y="72" width="260" height="1" fill="#1e293b"/>
+  <text x="16" y="102" font-family="sans-serif" font-size="13" fill="#94a3b8">⌂  Dashboard</text>
+  <rect x="0" y="114" width="3" height="30" fill="#00e676"/>
+  <rect x="0" y="114" width="260" height="30" fill="rgba(0,230,118,0.07)"/>
+  <text x="16" y="134" font-family="sans-serif" font-size="13" font-weight="600" fill="#00e676">⌨  Terminal</text>
+  <text x="16" y="168" font-family="sans-serif" font-size="13" fill="#94a3b8">📚  All Courses</text>
+  <text x="16" y="202" font-family="sans-serif" font-size="13" fill="#94a3b8">🚀  Projects</text>
+  <!-- Course items -->
+  <text x="16" y="248" font-family="sans-serif" font-size="10" fill="#4a5568" letter-spacing="1">LEARNING TRACKS</text>
+  <text x="16" y="278" font-family="sans-serif" font-size="12" fill="#94a3b8">⬡  Node.js</text>
+  <text x="220" y="278" font-family="monospace" font-size="10" fill="#4a5568">12</text>
+  <text x="16" y="306" font-family="sans-serif" font-size="12" fill="#94a3b8">▸  Express.js</text>
+  <text x="220" y="306" font-family="monospace" font-size="10" fill="#4a5568">8</text>
+  <text x="16" y="334" font-family="sans-serif" font-size="12" fill="#94a3b8">▲  Next.js</text>
+  <text x="220" y="334" font-family="monospace" font-size="10" fill="#4a5568">9</text>
+  <text x="16" y="362" font-family="sans-serif" font-size="12" fill="#94a3b8">⬛  SQL</text>
+  <text x="220" y="362" font-family="monospace" font-size="10" fill="#4a5568">7</text>
+  <text x="16" y="390" font-family="sans-serif" font-size="12" fill="#94a3b8">🐘  PostgreSQL</text>
+  <text x="220" y="390" font-family="monospace" font-size="10" fill="#4a5568">6</text>
+  <text x="16" y="418" font-family="sans-serif" font-size="12" fill="#94a3b8">◆  Prisma</text>
+  <text x="220" y="418" font-family="monospace" font-size="10" fill="#4a5568">5</text>
+  <text x="16" y="446" font-family="sans-serif" font-size="12" fill="#94a3b8">◉  NoSQL</text>
+  <text x="220" y="446" font-family="monospace" font-size="10" fill="#4a5568">3</text>
+  <text x="16" y="474" font-family="sans-serif" font-size="12" fill="#94a3b8">🍃  MongoDB</text>
+  <text x="220" y="474" font-family="monospace" font-size="10" fill="#4a5568">8</text>
+  <!-- Main: Terminal -->
+  <!-- Header bar -->
+  <rect x="260" y="0" width="1020" height="56" fill="#111827" stroke="#1e293b" stroke-width="1"/>
+  <text x="280" y="34" font-family="sans-serif" font-size="15" fill="#e2e8f0">⬡ DevPath / <tspan fill="#94a3b8">Terminal</tspan></text>
+  <rect x="1100" y="16" width="80" height="26" rx="5" fill="rgba(0,230,118,0.1)" stroke="rgba(0,230,118,0.3)" stroke-width="1"/>
+  <text x="1140" y="33" font-family="sans-serif" font-size="12" fill="#00e676" text-anchor="middle">⌨ Terminal</text>
+  <!-- Terminal window -->
+  <rect x="276" y="72" width="988" height="632" rx="12" fill="#0d1117" stroke="#1e293b" stroke-width="1"/>
+  <!-- Terminal titlebar -->
+  <rect x="276" y="72" width="988" height="42" rx="12" fill="#161b22"/>
+  <rect x="276" y="96" width="988" height="18" fill="#161b22"/>
+  <circle cx="302" cy="93" r="6" fill="#ff5f57"/>
+  <circle cx="322" cy="93" r="6" fill="#febc2e"/>
+  <circle cx="342" cy="93" r="6" fill="#28c840"/>
+  <text x="530" y="98" font-family="monospace" font-size="11" fill="#4a5568">Terminal · bash · ~/projects</text>
+  <!-- Tabs -->
+  <rect x="276" y="114" width="988" height="34" fill="#0d1117" stroke="#1e293b" stroke-width="1"/>
+  <text x="295" y="136" font-family="monospace" font-size="12" fill="#00e676">⌨ bash</text>
+  <rect x="276" y="146" width="85" height="2" fill="#00e676"/>
+  <text x="385" y="136" font-family="monospace" font-size="12" fill="#4a5568">⌨ bash</text>
+  <text x="450" y="136" font-family="monospace" font-size="12" fill="#4a5568">+</text>
+  <!-- Terminal output -->
+  <text x="295" y="180" font-family="monospace" font-size="12" fill="#00e676">╔══════════════════════════════════════════════════╗</text>
+  <text x="295" y="198" font-family="monospace" font-size="12" fill="#00e676">║   DevPath Terminal Simulator  v2.0              ║</text>
+  <text x="295" y="216" font-family="monospace" font-size="12" fill="#00e676">╚══════════════════════════════════════════════════╝</text>
+  <text x="295" y="240" font-family="monospace" font-size="12" fill="#79c0ff">Node.js v20.14.0  |  npm 10.8.1  |  PostgreSQL 16.3  |  MongoDB 7.0.9</text>
+  <text x="295" y="268" font-family="monospace" font-size="12" fill="#c9d1d9">Type 'help' to see all available commands.</text>
+  <text x="295" y="300" font-family="monospace" font-size="12" fill="#58a6ff">user@devpath:~/projects$ npm init -y</text>
+  <text x="295" y="322" font-family="monospace" font-size="12" fill="#00e676">Wrote to /home/user/projects/package.json:</text>
+  <text x="295" y="344" font-family="monospace" font-size="12" fill="#c9d1d9">{ "name": "projects", "version": "1.0.0", ... }</text>
+  <text x="295" y="372" font-family="monospace" font-size="12" fill="#58a6ff">user@devpath:~/projects$ npm install express</text>
+  <!-- progress bar -->
+  <rect x="295" y="394" width="600" height="3" rx="1.5" fill="#1e293b"/>
+  <rect x="295" y="394" width="420" height="3" rx="1.5" fill="url(#pg)"/>
+  <defs>
+    <linearGradient id="pg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00e676"/>
+      <stop offset="100%" stop-color="#00e5ff"/>
+    </linearGradient>
+  </defs>
+  <text x="295" y="414" font-family="monospace" font-size="11" fill="#4a5568">Installing express... 70%</text>
+  <text x="295" y="442" font-family="monospace" font-size="12" fill="#58a6ff">user@devpath:~/projects$ node</text>
+  <text x="295" y="464" font-family="monospace" font-size="12" fill="#79c0ff">Welcome to Node.js v20.14.0.</text>
+  <text x="295" y="486" font-family="monospace" font-size="12" fill="#c9d1d9">node&gt; 2 + 2</text>
+  <text x="295" y="508" font-family="monospace" font-size="12" fill="#c9d1d9">4</text>
+  <text x="295" y="530" font-family="monospace" font-size="12" fill="#c9d1d9">node&gt; process.version</text>
+  <text x="295" y="552" font-family="monospace" font-size="12" fill="#c9d1d9">'v20.14.0'</text>
+  <!-- Input row -->
+  <rect x="276" y="664" width="988" height="40" fill="#0d1117" stroke="#1e293b" stroke-width="1"/>
+  <text x="295" y="689" font-family="monospace" font-size="12" fill="#f7df1e">node&gt; </text>
+  <text x="358" y="689" font-family="monospace" font-size="12" fill="#c9d1d9">console.log('Hello, World!')</text>
+  <rect x="582" y="676" width="8" height="16" fill="#f7df1e" opacity="0.9"/>
+</svg>

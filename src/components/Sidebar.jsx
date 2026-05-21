@@ -15,7 +15,7 @@ export default function Sidebar({ currentView, currentCourse, onNavigate, progre
   }
 
   return (
-    <aside className="app-sidebar">
+    <aside className="sidebar-content">
       {/* Logo */}
       <div style={{ padding: '16px 16px 12px', borderBottom: '1px solid var(--border)', flexShrink: 0 }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>

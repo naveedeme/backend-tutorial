@@ -7,10 +7,13 @@ import ProjectsView from './components/ProjectsView.jsx'
 import { courses } from './data/courseData.js'
 
 // ─── Hash Router ──────────────────────────────────────────────────────────────
+const VALID_VIEWS = new Set(['dashboard', 'terminal', 'courses', 'course', 'projects', 'project'])
+
 function parseHash() {
   const hash = window.location.hash.replace('#', '')
   const [view, param] = hash.split('/')
-  return { view: view || 'dashboard', param: param || null }
+  const safeView = VALID_VIEWS.has(view) ? view : 'dashboard'
+  return { view: safeView, param: param || null }
 }
 
 // ─── Install Banner ───────────────────────────────────────────────────────────
@@ -152,27 +155,27 @@ export default function App() {
           ☰
         </button>
 
-        <div style={{ display: 'flex', alignItems: 'center', gap: 10, flex: 1 }}>
+        <div className="header-titlebar" style={{ display: 'flex', alignItems: 'center', gap: 10, flex: 1, minWidth: 0 }}>
           <span style={{ fontSize: 18 }}>⬡</span>
           <span style={{ fontWeight: 700, fontSize: 15 }}>DevPath</span>
           <span style={{ color: 'var(--border-bright)' }}>/</span>
-          <span style={{ color: 'var(--text-secondary)', fontSize: 14 }}>{getViewLabel()}</span>
+          <span className="header-current-view" style={{ color: 'var(--text-secondary)', fontSize: 14 }}>{getViewLabel()}</span>
         </div>
 
         {/* Header actions */}
-        <div style={{ display: 'flex', gap: 8, alignItems: 'center' }}>
+        <div className="header-actions" style={{ display: 'flex', gap: 8, alignItems: 'center' }}>
           <button
-            className="btn btn-ghost btn-sm"
+            className="btn btn-ghost btn-sm header-terminal-btn"
             onClick={() => navigate('terminal')}
             style={{ fontFamily: 'var(--font-mono)', fontSize: 12 }}
           >
-            ⌨ Terminal
+            ⌨ <span className="header-terminal-label">Terminal</span>
           </button>
           <a
             href="https://github.com/naveedeme/backend-tutorial"
             target="_blank"
             rel="noopener noreferrer"
-            className="btn btn-ghost btn-sm"
+            className="btn btn-ghost btn-sm header-github-link"
           >
             ★ GitHub
           </a>
@@ -244,7 +247,7 @@ export default function App() {
       <style>{`
         @media (max-width: 768px) {
           #mobile-menu-btn { display: flex !important; }
-          .app-sidebar { position: fixed !important; left: -260px !important; top: 0 !important; bottom: 0 !important; width: 260px !important; z-index: 200 !important; transition: left .25s ease !important; }
+          .app-sidebar { position: fixed !important; left: -280px !important; top: 0 !important; bottom: 0 !important; width: 280px !important; z-index: 200 !important; transition: left .25s ease !important; }
           .app-sidebar.mobile-open { left: 0 !important; box-shadow: var(--shadow-lg) !important; }
           .mobile-overlay.active { display: block !important; }
         }
